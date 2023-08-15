@@ -774,7 +774,7 @@ class Adaptavist:
         return (
             max(
                 (item for item in response if item["testCaseKey"] == test_case_key),
-                key=lambda item: item["id"],
+                key=lambda item: item["id"], default={}
             )
             or {}
         )

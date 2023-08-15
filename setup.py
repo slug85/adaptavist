@@ -1,11 +1,11 @@
 from setuptools import setup
 
 setup(
-    name="adaptavist",
+    name="adaptavist_fixed",
     description="python package providing functionality for Jira Test Management (tm4j)",
     long_description=open("README.md").read(),
     long_description_content_type="text/markdown",
-    use_scm_version=True,
+    version="0.1",
     url="https://github.com/devolo/adaptavist",
     author="Stephan Steinberg, Guido Schmitz, Markus Bong",
     author_email="guido.schmitz@devolo.de, markus.bong@devolo.de",
