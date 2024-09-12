@@ -5,7 +5,7 @@ setup(
     description="python package providing functionality for Jira Test Management (tm4j)",
     long_description=open("README.md").read(),
     long_description_content_type="text/markdown",
-    version="0.4",
+    version="0.5",
     url="https://github.com/slug85/adaptavist",
     author="Stephan Steinberg, Guido Schmitz, Markus Bong",
     author_email="guido.schmitz@devolo.de, markus.bong@devolo.de",
